@@ -3,5 +3,112 @@ img.bild {
     display: block;
     margin: 0 auto;
 }
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  color: #98da5a;
+  border-color: #98da5a;
+  background-color: transparent;
+  color: #98da5a;
+  padding: 12px 20px;
+  /* border:; */
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    color: #000;
+  background-color: #98da5a;
+  border-color: #98da5a;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #212529;
+  padding: 20px;
+}
+
+.container1 {
+    border-radius: 1px;
+    background-color: rgb(75, 84, 94);
+    padding: 30px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.container2 {
+    border-radius: 1px;
+    background-color: rgb(75, 84, 94);
+    padding: 30px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: flex-start;
+    margin-top: 40px;
+    
+}
+
+/* .container1 h4 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px; */
+
+/* .container1 h2 {
+    color: white;
+    margin-bottom: 20px;
+    float: left;
+    text-align: left;
+} */
+.container1 p{
+    color: white;
+}
+
+
+.container2 p {
+    color: white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    margin-top: 10px;
+    font-size: 17px;
+    color: coral;
+}
+
 
 
