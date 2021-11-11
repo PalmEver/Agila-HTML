@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="en">
   <head>
+
+    <meta name="description" content="Analys">
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,6 +15,7 @@
     <title>Analys</title>
   </head>
   <body>
+  <header>
     <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Agila utvecklingsmetoder</a>
@@ -21,59 +25,123 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="index.html">Hem</a>
-                        <a class="nav-link" href="klienttekniker.html">Klienttekniker</a>
-                        <a class="nav-link" href="projektmetodik.html">Projektmetodik</a>
-                        <a class="nav-link" href="internet.html">Internet</a>
-                        <a class="nav-link" href="tillganglighet.html">Tillgänglighet</a>
-                        <a class="nav-link" href="analys.html">Analys</a>
-                        <a class="nav-link" href="kontakt.html">Kontakt</a>
+                    <div class="navbar-nav"><br>
+                      <a class="nav" aria-current="page" href="index.html">Hem</a><br>
+                      <a class="nav1" href="klienttekniker.html">Klienttekniker</a><br>
+                        <a class="nav1 sub" href="klienttekniker.html#html">HTML</a><br>
+                        <a class="nav1 sub" href="klienttekniker.html#java">JavaScript</a><br>
+                        <a class="nav1 sub" href="klienttekniker.html#css">CSS</a><br><br>
+                      <a class="nav2" href="projektmetodik.html">Projektmetodik</a><br>
+                        <a class="nav2 sub" href="projektmetodik.html#vatten">Vattenfallsmetodiken</a><br>
+                        <a class="nav2 sub" href="projektmetodik.html#agil">Agila metoder</a><br>
+                        <a class="nav2 sub" href="projektmetodik.html#manifest">Agila manifestet</a><br>
+                        <a class="nav2 sub" href="projektmetodik.html#arbeta">Arbeta i SCRUM</a><br><br>
+                      <a class="nav3" href="internet.html">Internet</a><br>
+                        <a class="nav3 sub" href="internet.html#klient">Klient-server modellen</a><br>
+                        <a class="nav3 sub" href="internet.html#internet">Internet</a><br>
+                        <a class="nav3 sub" href="internet.html#proto">Protokoll</a><br>
+                        <a class="nav3 sub" href="internet.html#http">http/https</a><br>
+                        <a class="nav3 sub" href="internet.html#ftp">ftp/ftps</a><br><br>
+                      <a class="nav4" href="tillganglighet.html">Tillgänglighet</a><br>
+                        <a class="nav4 sub" href="tillganglighet.html#wcag">WCAG</a><br>
+                        <a class="nav4 sub" href="tillganglighet.html#ex1">Text</a><br>
+                        <a class="nav4 sub" href="tillganglighet.html#ex2">Responsiv</a><br>
+                        <a class="nav4 sub" href="tillganglighet.html#ex3">Hjälpmedel</a><br><br>
+                      <a class="nav5 aktiv5" href="analys.html">Analys</a><br>
+                        <a class="nav5 sub" href="analys.html#tid">Tidshantering</a><br>
+                        <a class="nav5 sub" href="analys.html#tek">Tekniska beslut</a><br>
+                        <a class="nav5 sub" href="analys.html#aff">Affärsvärde</a><br><br>
+                      <a class="nav" href="kontakt.html">Kontakt</a>                    
                     </div>
                 </div>
             </div>
       </nav>
       <div class="bg-dark text-secondary px-4 py-5 text-center">
-        <div class="py-5">
-          <h1 class="display-5 fw-bold text-white">Analys</h1>
+        <div class="pysen-5">
+          <h1 class="display-5 fw-bold analys">Analys</h1>
           <div class="col-lg-6 mx-auto">
-            <p class="fs-5 mb-4"></p>
+            <p class="fs-5 sam">Till sist ska projektet analyseras. 
+              <br>
+              Vad har gått bra,
+              vad har gått mindre bra och vad har jag lärt mig? </p>
+            <br>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <button type="button" class="btn btn-outline-info4 btn-lg px-4" onclick="document.location='kontakt.html'">Frågor?</button>
+            </div>
           </div>
         </div>
       </div>
-      <main class="bg-image">
+  </header>
+      <main class="bg-image5">
         <div class="container">
         <div class="container1 row">  
           <div class="col-12">
-            <h1>SCRUM</h1>
+            <h1 id="tid" class="analys le-al">Tidshantering</h1>
             <br>
-            <p>Scrum och andra agila-metoder blir allt vanligare och fokuserar på att konstant leverera ett affärsvärde. 
-              Till skillnad från traditionella metoder som istället fokuserar på att hålla en tidigare bestämd plan för arbetet.
+            <p>När kursen startade hade jag ingen erfarenhet av varken html, 
+              CSS eller JavaScript, det var mycket att ta in och jag kände mig 
+              något förvirrad i starten.
+              När jag började med skelettet till hemsidan fokuserade jag på designen och
+              hur jag ville att hemsidan skulle se ut, detta då det var det som lockade 
+              mig mest. När jag ser tillbaka på det borde jag använt mig mer av DevOps 
+              för att planera projektet mer noggrant och börjat med 
+              innehållet till hemsidan.<br><br>
+              Jag har lagt mycket tid på att designa hemsidan och finner det lätt att fasta 
+              i olika moment, som exempel när färger ska ha tillräckligt hög kontrast men 
+              ändå vara estetiskt tillfredsställande. Detta är något jag måste bli bättre på 
+              för att effektivisera mitt arbete.<br>
+              Men i stort tycker jag ändå projektet har gått bra då jag slutfört projektet i 
+              tid och känner mig förvånansvärt nöjd med resultatet.</p>
             <br>
+            <h1 id="tek" class="analys le-al">Tekniska beslut</h1>
             <br>
-            Grunden för SCRUM är det som kallas sprint, fokuserat arbete under en 30 dagars-period. Detta för att hela tiden öka produktens marknadsvärde och förbättra det som levereras till kunden. 
-            Varje sprint består av prioriterade mål som tas fram från den originella backloggen (att-göra-lista). 
-            Målen bryts sedan ned i detaljerade arbetsuppgifter där teamet själva organiserar och ansvarar för resultatet. De aktörer som behövs i ett SCRUM-projekt är följande:
-            </p>
+            <p>Jag har valt att använda ytterst lite JavaScript som inte är från Bootstrap
+              då jag kände att jag behövde fokusera på html och CSS, delvis för att
+              nästkommande kurs ändå ska fokusera enbart på detta.
+              Bootstrap har varit till stor hjälp för mig då jag snabbt fått en grund
+              att stå på, som jag sedan kunnat utforska för att få en god förståelse för
+              dess delar och funktioner. Jag har framförallt experimenterat med CSS filen
+              från Bootstrap för att skapa en personlig webbsida.
+              Webbsidan har en drop-down meny men även knappar högst upp på sidan så man
+              enkelt kan navigera sig mellan sidorna på olika sätt.<br><br>
+              Jag har valt att hålla webbsidan relativt fri från bilder för att förenkla för
+              mig själv men även för att ge ett (vad jag tycker) behagligare intryck. Det är
+              enbart bilder på första och sista sidan, samt bakgrundsbilder på varje del i 
+              projektet. 
+              Jag har även valt att jobba mycket med färger för att separera de olika 
+              delarna, färger som jag tagit från källkod i VisualStudios. Jag tycker detta 
+              ger ett mer livfullt intryck och påminner en något om källkoden man suttit och 
+              arbetat med. Bilderna är även anpassade för att passa färgtemat, men med 
+              naturtema istället för tekniskt tema (som kanske är det självklara valet)
+              för att skapa en harmonisk upplevelse.</p>
             <br>
-            <h2>PRODUKTÄGARE</h2>
-            <p>Produktägaren är själva beställaren och kan både vara en utomstående kund eller en del av den egna organisationen. 
-            Denna roll är att se till att rätt saker utförs i en prioriterad ordning, genom att administrera en product backlog (en att-göra-lista som kan förändras under arbetets gång där kraven för produkten radas upp efter lönsamhet) 
-            Dokumentet är synligt för hela organisationen för att alla ska vara medvetna om vad som förväntas och eventuellt behöver åtgärdas inför kommande releaser. 
-            </p>
+            <h1 id="aff" class="analys le-al">Affärsvärde</h1>
+            <br>
+            <p>Jag har jobbat utifrån de agila metoder som presenterats under kursen och 
+              försökt använda mig så mycket som möjligt av DevOps för att hela tiden 
+              leverera ett affärsvärde. Webbsidan har konstant förbättrats med användarvänliga 
+              funktioner, bland annat knappar på startsidan där man kan navigera sig till 
+              första delen av projektet eller direkt till kontaktformuläret där även mina
+              kontaktuppgifter presenteras överst. Detta för att göra det enkelt för
+               uppdragsgivare att komma i kontakt med mig.<br><br>
+              Jag har konstant strävat efter att göra hemsidan så lättnavigerad som möjligt 
+              och (som tidigare nämnt) jobbat mycket med färger för att förtydliga de olika 
+              delarna vilket även delar upp de olika delarna i nav-baren, så man får en klar 
+              bild av hela projektet. 
+              Det största affärsvärdet som jag bidragit med anser jag är designelementen, 
+              jag är väldigt nöjd över intrycket av hemsidan och hur enkelt man kan navigera 
+              sig runt. 
+              Det har varit en otroligt rolig kurs och jag känner att det är natt och dag 
+              jämfört med vad jag hade kunnat leverera i början av denna kurs.</p>
           </div>
         </div>
       </main>
-      <!-- <div style="border: 0ch;">
-        <img class="bild img-fluid" src="goodToGreat.jpg" >
-      </div> -->
-
-      <footer class="py-1 my-3">
-        <ul class="nav justify-content-center border-bottom pb-1 mb-0">
-          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Hem</a></li>
-          <li class="nav-item"><a href="tillganglighet.html" class="nav-link px-2 text-muted">Tillgänglighet</a></li>
-          <li class="nav-item"><a href="analys.html" class="nav-link px-2 text-muted">Analys</a></li>
-          <li class="nav-item"><a href="kontakt.html" class="nav-link px-2 text-muted">Kontakt</a></li>
+      <footer class="py-1">
+        <ul class="nav justify-content-center border-bottom">
+          <li class="nav-link"><a href="index.html" class="foot">Hem</a></li>
+          <li class="nav-link"><a href="tillganglighet.html" class="foot">Tillgänglighet</a></li>
+          <li class="nav-link"><a href="analys.html" class="foot">Analys</a></li>
+          <li class="nav-link"><a href="kontakt.html" class="foot">Kontakt</a></li>
         </ul>
       </footer>
       <!-- Optional JavaScript; choose one of the two! -->

@@ -2,7 +2,9 @@ img.bild {
     opacity: 0.8;
     display: block;
     margin: 0 auto;
+    width: 100%;
 }
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%; /* Full width */
@@ -51,7 +53,7 @@ input[type=submit]:hover {
 }
 
 .container1 {
-    background-color: rgb(47, 53, 59);
+    background-color: rgba(47, 53, 59);
     padding: 30px;
     width: 80%;
     margin: 0 auto;
@@ -68,17 +70,17 @@ input[type=submit]:hover {
 }
 
 .container1 p{
-    color: white;
+    color: whitesmoke;
     text-align:left;
 }
 
 h1 {
-    color: white;
+    color: whitesmoke;
     text-align: center;
 }
 
 h2 {
-    color: white;
+    color: whitesmoke;
     margin-top: 10px;
     font-size: 17px;
     text-align: left;
@@ -100,27 +102,52 @@ h2 {
     background-attachment: fixed;
 }
 
+.bg-image3{
+    background-image: url("sky.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.bg-image4{
+    background-image: url("access.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.bg-image5{
+    background-image: url("heather.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+
 header {
     margin-bottom: 40px;
 }
 
 .projekt {
     color:rgb(130, 187, 243);
-    max-width: 100%;
 }
 
 .klient {
     color:#98da5a;
-    max-width: 100%;
 }
 
 .tillgang {
     color: #e67865;
-    max-width: 100%;
 }
 
 .inter {
     color: rgb(223, 223, 37);
+}
+
+.analys {
+    color: rgb(143, 114, 189);
 }
 
 .le-al {
@@ -128,10 +155,82 @@ header {
 }
 
 .sam {
-    color:white;
+    color:whitesmoke;
 }
 
 .lis {
-    color: white;
-    ;
+    color: whitesmoke;
+}
+
+.nav-m {
+    margin-left: 10px;
+}
+
+.sub {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.foot {
+    color: rgb(196, 192, 192);
+    text-decoration: none;
+}
+
+.foot:hover {
+    color: whitesmoke;
+}
+
+.nav {
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    text-align: left;
+}
+
+.nav:hover, .nav.active, .nav:focus, .aktiv {
+    color:white;
+}
+
+.nav1 {
+    color: #b2cc99;
+    text-decoration: none;
+}
+
+.nav1:hover, .nav1.active, .nav1:focus, .aktiv1 {
+    color: #98da5a;
+}
+
+.nav2 {
+    color: rgb(193, 214, 235);
+    text-decoration: none;
+}
+
+.nav2:hover, .nav2.active, .nav2:focus, .aktiv2 {
+    color: rgb(130, 187, 243);
+}
+
+.nav3 {
+    color: rgb(211, 211, 152);
+    text-decoration: none;
+}
+
+.nav3:hover, .nav3.active, .nav3:focus, .aktiv3 {
+    color: rgb(223, 223, 37);
+}
+
+.nav4 {
+    color: #dfa9a0;
+    text-decoration: none;
+}
+
+.nav4:hover, .nav4.active, .nav4:focus, .aktiv4 {
+    color: #e67865;
+}
+
+.nav5 {
+    color: rgb(144, 136, 156);
+    text-decoration: none;
+}
+
+.nav5:hover, .nav5.active, .nav5:focus, .aktiv5 {
+    color: rgb(160, 130, 207);
 }

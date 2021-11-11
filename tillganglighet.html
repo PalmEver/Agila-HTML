@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="en">
   <head>
+
+    <meta name="description" content="Tillgänglighet">
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,6 +15,7 @@
     <title>Tillgänglighet</title>
   </head>
   <body>
+  <header>
     <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Agila utvecklingsmetoder</a>
@@ -21,54 +25,93 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="index.html">Hem</a>
-                        <a class="nav-link" href="klienttekniker.html">Klienttekniker</a>
-                        <a class="nav-link" href="projektmetodik.html">Projektmetodik</a>
-                        <a class="nav-link" href="internet.html">Internet</a>
-                        <a class="nav-link" href="tillganglighet.html">Tillgänglighet</a>
-                        <a class="nav-link" href="analys.html">Analys</a>
-                        <a class="nav-link" href="kontakt.html">Kontakt</a>
+                    <div class="navbar-nav"><br>
+                      <a class="nav" aria-current="page" href="index.html">Hem</a><br>
+                      <a class="nav1" href="klienttekniker.html">Klienttekniker</a><br>
+                        <a class="nav1 sub" href="klienttekniker.html#html">HTML</a><br>
+                        <a class="nav1 sub" href="klienttekniker.html#java">JavaScript</a><br>
+                        <a class="nav1 sub" href="klienttekniker.html#css">CSS</a><br><br>
+                      <a class="nav2" href="projektmetodik.html">Projektmetodik</a><br>
+                        <a class="nav2 sub" href="projektmetodik.html#vatten">Vattenfallsmetodiken</a><br>
+                        <a class="nav2 sub" href="projektmetodik.html#agil">Agila metoder</a><br>
+                        <a class="nav2 sub" href="projektmetodik.html#manifest">Agila manifestet</a><br>
+                        <a class="nav2 sub" href="projektmetodik.html#arbeta">Arbeta i SCRUM</a><br><br>
+                      <a class="nav3" href="internet.html">Internet</a><br>
+                        <a class="nav3 sub" href="internet.html#klient">Klient-server modellen</a><br>
+                        <a class="nav3 sub" href="internet.html#internet">Internet</a><br>
+                        <a class="nav3 sub" href="internet.html#proto">Protokoll</a><br>
+                        <a class="nav3 sub" href="internet.html#http">http/https</a><br>
+                        <a class="nav3 sub" href="internet.html#ftp">ftp/ftps</a><br><br>
+                      <a class="nav4 aktiv4" href="tillganglighet.html">Tillgänglighet</a><br>
+                        <a class="nav4 sub" href="tillganglighet.html#wcag">WCAG</a><br>
+                        <a class="nav4 sub" href="tillganglighet.html#ex1">Text</a><br>
+                        <a class="nav4 sub" href="tillganglighet.html#ex2">Responsiv</a><br>
+                        <a class="nav4 sub" href="tillganglighet.html#ex3">Hjälpmedel</a><br><br>
+                      <a class="nav5" href="analys.html">Analys</a><br>
+                        <a class="nav5 sub" href="analys.html#tid">Tidshantering</a><br>
+                        <a class="nav5 sub" href="analys.html#tek">Tekniska beslut</a><br>
+                        <a class="nav5 sub" href="analys.html#aff">Affärsvärde</a><br><br>
+                      <a class="nav" href="kontakt.html">Kontakt</a>                    
                     </div>
                 </div>
             </div>
       </nav>
       <div class="bg-dark text-secondary px-4 py-5 text-center">
-        <div class="py-5">
+        <div class="pysen-5">
           <h1 class="display-5 fw-bold tillgang">Tillgänglighet</h1>
+          <br>
           <div class="col-lg-6 mx-auto">
-            <p class="fs-5 sam">hahahahahahahahahahha</p>
+            <p class="fs-5 sam">Att en hemsida är tillgänglig för alla är viktigt
+              för att inkludera samtliga användare oberoende av förutsättningar
+            </p>
+            <br>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <button type="button" class="btn btn-outline-info3 btn-lg px-4 me-sm-3 fw-bold" onclick="document.location='analys.html'">Nästa</button>
+            </div>
           </div>
         </div>
       </div>
-      <main class="bg-image">
+  </header>
+      <main class="bg-image4">
         <div class="container">
         <div class="container1 row">  
           <div class="col-12">
-            <h1 class="tillgang">WCAG</h1>
+            <h1 id="wcag" class="tillgang le-al">WCAG</h1>
             <br>
-            <p></p>
+            <p>Digital tillgänglighet eller webbtillgänglighet innebär att webbplatser, 
+              intranät och digitala tjänster ska kunna användas av så många människor som möjligt, 
+              oavsett till exempel funktionsnedsättning. Därav finns WCAG som står för Web Content 
+              Accessibility Guidelines och är den internationella standarden för lagstiftning och 
+              riktlinjer gällande tillgänglighet. I Sverige har vi Lag (2018:1937) om tillgänglighet 
+              till digital offentlig service som bland annat myndigheter, kommuner och regional service 
+              med flera måste följa. Snart berörs även andra sektorer (e-handel, banker m.m).</p>
           </div>
         </div>
         <div class="container1 row">  
           <div class="col-12">
-            <h1 class="tillgang">ex1</h1>
+            <h1 id="ex1" class="tillgang le-al">Text</h1>
             <br>
-            <p></p>
-          </div>
-        </div>
-        <div class="container1 row">  
-          <div class="col-12">
-            <h1 class="tillgang">ex2</h1>
+            <p>En tillgänglighetsanpassad sida ska ha text som är lätt att förstå och läsa, 
+              kontrasten mellan text och bakgrund måste vara tillräcklig stor för 
+              att synskadade/färgblinda även ska kunna läsa innehållet.
+              Om bilder används bör även dessa ha en text som beskriver innehållet.</p>
             <br>
-            <p></p>
-          </div>
-        </div>
-        <div class="container1 row">  
-          <div class="col-12">
-            <h1 class="tillgang">ex3</h1>
+            <h1 id="ex2" class="tillgang le-al">Responsiv</h1>
             <br>
-            <p></p>
+            <p>Webbsidan ska även vara responsiv, vilket innebär att man kan förstora
+              utan att innehållet hamnar utanför sidan, man ska alltså inte behöva
+              scrolla i sidledes för att ta del av en webbsida. Innehållet ska 
+              även anpassas efter formatet som användaren vill se webbsidan i,
+              texter och bilder ska inte hamna bakom varandra oberoende på format.</p>
+            <br>
+            <h1 id="ex3" class="tillgang le-al">Hjälpmedel</h1>
+            <br>
+            <p>Webbsidan ska vara anpassad för vissa hjälpmedel som röststyrning, 
+              navigering med tangentbord och uppläsnings hjälpmedel. Detta är 
+              viktigt för göra webbsidan tillgänglig även för synskadade och individer 
+              med nedsatt muskelförmåga. Det ska helt enkelt gå att komma åt innehållet 
+              oavsett förutsättningar.	
+              </p>
           </div>
         </div>
         </div>
@@ -77,12 +120,12 @@
         <img class="bild img-fluid" src="goodToGreat.jpg" >
       </div> -->
 
-      <footer class="py-1 my-3">
+      <footer class="py-1">
         <ul class="nav justify-content-center border-bottom pb-1 mb-0">
-          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Hem</a></li>
-          <li class="nav-item"><a href="tillganglighet.html" class="nav-link px-2 text-muted">Tillgänglighet</a></li>
-          <li class="nav-item"><a href="analys.html" class="nav-link px-2 text-muted">Analys</a></li>
-          <li class="nav-item"><a href="kontakt.html" class="nav-link px-2 text-muted">Kontakt</a></li>
+          <li class="nav-link"><a href="index.html" class="foot">Hem</a></li>
+          <li class="nav-link"><a href="tillganglighet.html" class="foot">Tillgänglighet</a></li>
+          <li class="nav-link"><a href="analys.html" class="foot">Analys</a></li>
+          <li class="nav-link"><a href="kontakt.html" class="foot">Kontakt</a></li>
         </ul>
       </footer>
     <!-- Option 1: Bootstrap Bundle with Popper -->

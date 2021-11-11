@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta name="description" content="Projektmetodik, agila, agilt">
+    <meta name="description" content="Projektmetodik">
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -24,34 +24,57 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="index.html">Hem</a>
-                        <a class="nav-link" href="klienttekniker.html">Klienttekniker</a>
-                        <a class="nav-link" href="projektmetodik.html">Projektmetodik</a>
-                        <a class="nav-link" href="internet.html">Internet</a>
-                        <a class="nav-link" href="tillganglighet.html">Tillgänglighet</a>
-                        <a class="nav-link" href="analys.html">Analys</a>
-                        <a class="nav-link" href="kontakt.html">Kontakt</a>
+                    <div class="navbar-nav"><br>
+                      <a class="nav" aria-current="page" href="index.html">Hem</a><br>
+                      <a class="nav1" href="klienttekniker.html">Klienttekniker</a><br>
+                        <a class="nav1 sub" href="klienttekniker.html#html">HTML</a><br>
+                        <a class="nav1 sub" href="klienttekniker.html#java">JavaScript</a><br>
+                        <a class="nav1 sub" href="klienttekniker.html#css">CSS</a><br><br>
+                      <a class="nav2 aktiv2" href="projektmetodik.html">Projektmetodik</a><br>
+                        <a class="nav2 sub" href="projektmetodik.html#vatten">Vattenfallsmetodiken</a><br>
+                        <a class="nav2 sub" href="projektmetodik.html#agil">Agila metoder</a><br>
+                        <a class="nav2 sub" href="projektmetodik.html#manifest">Agila manifestet</a><br>
+                        <a class="nav2 sub" href="projektmetodik.html#arbeta">Arbeta i SCRUM</a><br><br>
+                      <a class="nav3" href="internet.html">Internet</a><br>
+                        <a class="nav3 sub" href="internet.html#klient">Klient-server modellen</a><br>
+                        <a class="nav3 sub" href="internet.html#internet">Internet</a><br>
+                        <a class="nav3 sub" href="internet.html#proto">Protokoll</a><br>
+                        <a class="nav3 sub" href="internet.html#http">http/https</a><br>
+                        <a class="nav3 sub" href="internet.html#ftp">ftp/ftps</a><br><br>
+                      <a class="nav4" href="tillganglighet.html">Tillgänglighet</a><br>
+                        <a class="nav4 sub" href="tillganglighet.html#wcag">WCAG</a><br>
+                        <a class="nav4 sub" href="tillganglighet.html#ex1">Text</a><br>
+                        <a class="nav4 sub" href="tillganglighet.html#ex2">Responsiv</a><br>
+                        <a class="nav4 sub" href="tillganglighet.html#ex3">Hjälpmedel</a><br><br>
+                      <a class="nav5" href="analys.html">Analys</a><br>
+                        <a class="nav5 sub" href="analys.html#tid">Tidshantering</a><br>
+                        <a class="nav5 sub" href="analys.html#tek">Tekniska beslut</a><br>
+                        <a class="nav5 sub" href="analys.html#aff">Affärsvärde</a><br><br>
+                      <a class="nav" href="kontakt.html">Kontakt</a>                    
+                    </div>
                 </div>
         </div>
     </nav>
       <div class="bg-dark text-secondary px-4 py-5 text-center bajs">
-        <div class="py-5">
+        <div class="pysen-5">
           <h1 class="display-5 fw-bold projekt">Projektmetodik</h1>
           <br>
           <div class="col-lg-6 mx-auto">
             <p class="fs-5 sam">Här går vi igenom olika projektmetoder.<br> 
             Vilka fördelar har de olika metoderna och hur kan ett agilt projekt se ut?</p>
+            <br>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <button type="button" class="btn btn-outline-info1 btn-lg px-4 me-sm-3 fw-bold" onclick="document.location='internet.html'">Nästa</button>
+            </div>
           </div>
         </div>
     </div>
   </header>
-
   <main class="bg-image2">
     <div class="container">
       <div class="container1 row">
         <div class="col-12">
-          <h1 class="projekt le-al">Vattenfall</h1>
+          <h1 id="vatten" class="projekt le-al">Vattenfall</h1>
           <br>
           <p>Vattenfallsmetodiken är den traditionella arbetsmetoden, 
             denna innebär att man först sätter upp ett slutmål för projektet med en fast deadline och 
@@ -68,43 +91,41 @@
             tar man ofta bort de funktioner/delar som inte hinner med. Tester av produkten
             sker även i slutet vilket innebär att om en bugg skulle uppstå, 
             skulle det i sin tur medföra en hel del backtracking</p>
-        </div>
-      </div>
-      <div class="container1 row">
-        <div class="col-12">
-          <h1 class="projekt le-al">Agila</h1>
-          <br>
-          <p>De nyare och modernare metoderna är agila arbetsmetoder, dessa är mer lättrörliga 
-            och testbaserade och man fokuserar hela tiden på att 
-            leverera ett affärsvärde till kunden.
-            Arbetet är uppbyggt på en platt hierarki vilket innebär att medlemmar i projektet 
-            enkelt flyttas runt mellan olika team beroende på behov. 
-            Man använder sig även av korta och innehållsrika möten för att inte fastna i långa 
-            möten som kanske inte bidrar med något värde till projektet.
             <br>
+            <h1 id="agil" class="projekt le-al">Agila</h1>
             <br>
-            Fördelar med denna metod är............................
-            .......................................
-            ..........................................</p>
-        </div>
-      </div>
-      <div class="container1 row">
-        <div class="col-12">
-          <h1 class="projekt le-al">Agila manifestet</h1>
-          <br>
-          <p>I Agila manifestet formulerade, år 2001, en grupp mjukvaruutvecklare fyra teser som en reaktion 
-            mot trögrörliga och komplexa planeringsmetoder. Att ägna mycket möda åt planering upplevdes som 
-            bortkastat arbete när målet och vägen dit är okänd och under ständig förändring.</p>
-            <ul class="lis">
-              <li>Värderar individer och interaktion framför processer och verktyg</li>
-              <li>Värderar samarbete med kunden framför att förhandla om kontrakt</li>
-              <li>Värderar att reagera på förändringar framför att följa en uppgjord plan</li>
-              <li>Värderar fungerande mjukvara framför omfattande dokumentation</li>
+            <p>De nyare och modernare metoderna är agila arbetsmetoder, dessa är mer lättrörliga 
+              och testbaserade och man fokuserar hela tiden på att 
+              leverera ett affärsvärde till kunden.
+              Arbetet är uppbyggt på en platt hierarki vilket innebär att medlemmar i projektet 
+              enkelt flyttas runt mellan olika team beroende på behov. 
+              Man använder sig även av korta och innehållsrika möten för att inte fastna i långa 
+              möten som kanske inte bidrar med något värde till projektet.
+              <br>
+              <br>
+              Fördelar med denna metod är att betställaren får kontinueliga uppdateringar
+              och kan påverka projektet i realtid, man får generellt ett större affärsvärde
+              då kvalitet är i fokus och det uppmanar till engagemang i hela teamet.
+              <br>
+              <br>
+              Nackdelar med agilt är framförallt att det kan vara något osäkra leveransdatum
+              och att kostnaden för projektet kan springa iväg.</p>
+            <br>
+            <h1 id="manifest" class="projekt le-al">Agila manifestet</h1>
+            <br>
+            <p>I Agila manifestet formulerade, år 2001, en grupp mjukvaruutvecklare fyra teser som en reaktion 
+              mot trögrörliga och komplexa planeringsmetoder. Att ägna mycket möda åt planering upplevdes som 
+              bortkastat arbete när målet och vägen dit är okänd och under ständig förändring.</p>
+              <ul class="lis">
+                <li>Värderar individer och interaktion framför processer och verktyg</li>
+                <li>Värderar samarbete med kunden framför att förhandla om kontrakt</li>
+                <li>Värderar att reagera på förändringar framför att följa en uppgjord plan</li>
+                <li>Värderar fungerande mjukvara framför omfattande dokumentation</li>
         </div>
       </div>
       <div class="container1 row">  
         <div class="col-12">
-          <h1 class="projekt le-al">Arbeta i SCRUM</h1>
+          <h1 id="arbeta" class="projekt le-al">Arbeta i SCRUM</h1>
           <br>
           <p>Scrum och andra agila-metoder blir allt vanligare och fokuserar på att konstant leverera ett affärsvärde. 
           Till skillnad från traditionella metoder som istället fokuserar på att hålla en tidigare bestämd plan för arbetet.
@@ -129,31 +150,15 @@
           De får sedan fritt byta uppgifter med varandra om behovet finns, målet är att klara av de krav/mål som måste uppnås i sprinten.</p>
         </div>
       </div>
-    <!-- <div class="container2 row">
-      <p>SCRUM
-        Scrum och andra agila-metoder blir allt vanligare och fokuserar på att konstant leverera ett affärsvärde. Till skillnad från traditionella metoder som istället fokuserar på att hålla en tidigare bestämd plan för arbetet. 
-        Grunden för SCRUM är det som kallas sprint, fokuserat arbete under en 30 dagars-period. Detta för att hela tiden öka produktens marknadsvärde och förbättra det som levereras till kunden. Varje sprint består av prioriterade mål som tas fram från den originella backloggen (att-göra-lista). Målen bryts sedan ned i detaljerade arbetsuppgifter där teamet själva organiserar och ansvarar för resultatet. De aktörer som behövs i ett SCRUM-projekt är följande: 
-        PRODUKTÄGARE
-        Produktägaren är själva beställaren och kan både vara en utomstående kund eller en del av den egna organisationen. Denna roll är att se till att rätt saker utförs i en prioriterad ordning, genom att administrera en product backlog (en att-göra-lista som kan förändras under arbetets gång där kraven för produkten radas upp efter lönsamhet) Dokumentet är synligt för hela organisationen för att alla ska vara medvetna om vad som förväntas och eventuellt behöver åtgärdas inför kommande releaser. 
-        SCRUM-MÄSTARE
-        SCRUM-Mästarens uppgift är att se till att teamet har bästa möjliga förutsättningar för att klara sprint-målen. Detta genom korta dagliga möten, utvärderingsmöten och att se till att SCRUM-teamet störs så lite som möjligt i sitt arbete. Om någon utanför projektet har viktiga ärenden som teamet behöver ta del av är det SCRUM-Mästarens uppgift att se till att teamet störs så lite som möjligt av detta. 
-        SCRUM-TEAMET
-        SCRUM-Teamet utför det egentliga arbetet och består av 5-9 personer. De arbetar utifrån den backlog som finns tillgänglig men bestämmer själva hur dessa uppgifter ska fördelas och utföras. De får sedan fritt byta uppgifter med varandra om behovet finns, målet är att klara av de krav/mål som måste uppnås i sprinten. 
-        
-        Till skillnad från vattenfallsmodellen där projektledaren arbetar med en stängd projektgrupp är Scrum uppbyggd som en platt hierarki. Här kan medlemmar flyttas runt enkelt mellan olika team beroende på behov. Man använder sig även av korta och innehållsrika möten för att inte fasta i långa möten som kanske inte bidrar med något värde till projektet. 
-        I Scrum så skjuter man upp leveransdatum om man inte lyckats uppnå målet på utsatt tid. Detta till skillnad från vattenfallsmodellen där man istället tar bort mindre viktiga delar för att inte bryta en deadline. Det viktigaste inom SCRUM är kvalitén på produkten och inte den planerade dead-linen. Därför arbetat man konstant om delar i projektet för att uppnå det bästa resultatet. 
-        Traditionella metoder kan vara användbara inom vissa branscher men inom systemutveckling/webutveckling m.m anser jag att en agilt arbetsmetod nästan är ett krav för att få ett bra resultat. Detta då projektet lätt blir ”låst” om friheten inom t.ex. SCRUM ej finns tillgänglig. 
-        </p>
-    </div> -->
     </div>
   </main>
 
-      <footer class="py-1 my-3 bg-dark">
+      <footer class="py-1">
         <ul class="nav justify-content-center border-bottom pb-1 mb-0">
-          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Hem</a></li>
-          <li class="nav-item"><a href="tillganglighet.html" class="nav-link px-2 text-muted">Tillgänglighet</a></li>
-          <li class="nav-item"><a href="analys.html" class="nav-link px-2 text-muted">Analys</a></li>
-          <li class="nav-item"><a href="kontakt.html" class="nav-link px-2 text-muted">Kontakt</a></li>
+          <li class="nav-link"><a href="index.html" class="foot">Hem</a></li>
+          <li class="nav-link"><a href="tillganglighet.html" class="foot">Tillgänglighet</a></li>
+          <li class="nav-link"><a href="analys.html" class="foot">Analys</a></li>
+          <li class="nav-link"><a href="kontakt.html" class="foot">Kontakt</a></li>
         </ul>
       </footer>
     <!-- Option 1: Bootstrap Bundle with Popper -->

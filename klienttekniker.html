@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <meta name="description" content="Klienttekniker">
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,29 +25,47 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="index.html">Hem</a>
-                        <a class="nav-link" href="klienttekniker.html">Klienttekniker</a>
-                        <a class="nav-link" href="projektmetodik.html">Projektmetodik</a>
-                        <a class="nav-link" href="internet.html">Internet</a>
-                        <a class="nav-link" href="tillganglighet.html">Tillgänglighet</a>
-                        <a class="nav-link" href="analys.html">Analys</a>
-                        <a class="nav-link" href="kontakt.html">Kontakt</a>
+                    <div class="navbar-nav"><br>
+                      <a class="nav" aria-current="page" href="index.html">Hem</a><br>
+                      <a class="nav1 aktiv1" href="klienttekniker.html">Klienttekniker</a><br>
+                        <a class="nav1 sub" href="klienttekniker.html#html">HTML</a><br>
+                        <a class="nav1 sub" href="klienttekniker.html#java">JavaScript</a><br>
+                        <a class="nav1 sub" href="klienttekniker.html#css">CSS</a><br><br>
+                      <a class="nav2" href="projektmetodik.html">Projektmetodik</a><br>
+                        <a class="nav2 sub" href="projektmetodik.html#vatten">Vattenfallsmetodiken</a><br>
+                        <a class="nav2 sub" href="projektmetodik.html#agil">Agila metoder</a><br>
+                        <a class="nav2 sub" href="projektmetodik.html#manifest">Agila manifestet</a><br>
+                        <a class="nav2 sub" href="projektmetodik.html#arbeta">Arbeta i SCRUM</a><br><br>
+                      <a class="nav3" href="internet.html">Internet</a><br>
+                        <a class="nav3 sub" href="internet.html#klient">Klient-server modellen</a><br>
+                        <a class="nav3 sub" href="internet.html#internet">Internet</a><br>
+                        <a class="nav3 sub" href="internet.html#proto">Protokoll</a><br>
+                        <a class="nav3 sub" href="internet.html#http">http/https</a><br>
+                        <a class="nav3 sub" href="internet.html#ftp">ftp/ftps</a><br><br>
+                      <a class="nav4" href="tillganglighet.html">Tillgänglighet</a><br>
+                        <a class="nav4 sub" href="tillganglighet.html#wcag">WCAG</a><br>
+                        <a class="nav4 sub" href="tillganglighet.html#ex1">Text</a><br>
+                        <a class="nav4 sub" href="tillganglighet.html#ex2">Responsiv</a><br>
+                        <a class="nav4 sub" href="tillganglighet.html#ex3">Hjälpmedel</a><br><br>
+                      <a class="nav5" href="analys.html">Analys</a><br>
+                        <a class="nav5 sub" href="analys.html#tid">Tidshantering</a><br>
+                        <a class="nav5 sub" href="analys.html#tek">Tekniska beslut</a><br>
+                        <a class="nav5 sub" href="analys.html#aff">Affärsvärde</a><br><br>
+                      <a class="nav" href="kontakt.html">Kontakt</a>                    
                     </div>
                 </div>
-            </div>
+        </div>
       </nav>
       <div class="bg-dark text-secondary px-4 py-5 text-center">
-        <div class="py-5">
+        <div class="pysen-5">
           <h1 class="display-5 fw-bold klient">Klienttekniker</h1>
           <br>
           <div class="col-lg-6 mx-auto">
             <p class="fs-5 sam">Här kommer vi kortfattat gå igenom de olika delarna som används
-              för att bygga en webbsida.</p>
+              <br>för att bygga denna webbsida.</p>
             <br>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
               <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold" onclick="document.location='projektmetodik.html'">Nästa</button>
-              <button type="button" class="btn btn-outline-light btn-lg px-4" onclick="document.location='kontakt.html'">Frågor?</button>
             </div>
           </div>
         </div>
@@ -55,7 +75,7 @@
         <div class="container">
         <div class="container1 row">  
           <div class="col-12">
-            <h1 class="klient le-al">HTML</h1>
+            <h1 id="html" class="klient le-al">HTML</h1>
             <br>
             <p>HyperText Markup Language (HTML) är själva skelettet för en webbsida, ett märkspråk som används för att bygga upp själva strukturen för webbsidan. 
               HTML är uppbyggt av attribut och element som indikerar vad som ska visas på sidan. Elementet består av start- och sluttaggar där innehållet placeras, 
@@ -66,7 +86,7 @@
         </div>
         <div class="container1 row">  
           <div class="col-12">
-            <h1 class="klient le-al">JavaScript</h1>
+            <h1 id="java" class="klient le-al">JavaScript</h1>
             <br>
             <p>JavaScript är musklerna för webbsidan, ett scriptspråk som används för att skapa bland annat funktioner och händelser. 
               Det går att skriva JavaScript direkt i html dokumentet med hjälp av script taggar, men det rekommenderas att använda en 
@@ -75,7 +95,7 @@
         </div>
         <div class="container1 row">  
           <div class="col-12">
-            <h1 class="klient le-al">CSS</h1>
+            <h1 id="css" class="klient le-al">CSS</h1>
             <br>
             <p>Cascading Style Sheets (CSS) är skinnet för webbsidan, ett språk bestående av regler som bestämmer hur elementen ska presenteras. 
               I CSS anger man layouten, färger, bakgrundsbilder/färger, teckensnitt m.m. Man kan även använda CSS för att göra webbsidan responsiv
@@ -88,12 +108,12 @@
         <img class="bild img-fluid" src="goodToGreat.jpg" >
       </div> -->
 
-      <footer class="py-1 my-3">
+      <footer class="py-1">
         <ul class="nav justify-content-center border-bottom pb-1 mb-0">
-          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Hem</a></li>
-          <li class="nav-item"><a href="tillganglighet.html" class="nav-link px-2 text-muted">Tillgänglighet</a></li>
-          <li class="nav-item"><a href="analys.html" class="nav-link px-2 text-muted">Analys</a></li>
-          <li class="nav-item"><a href="kontakt.html" class="nav-link px-2 text-muted">Kontakt</a></li>
+          <li class="nav-link"><a href="index.html" class="foot">Hem</a></li>
+          <li class="nav-link"><a href="tillganglighet.html" class="foot">Tillgänglighet</a></li>
+          <li class="nav-link"><a href="analys.html" class="foot">Analys</a></li>
+          <li class="nav-link"><a href="kontakt.html" class="foot">Kontakt</a></li>
         </ul>
       </footer>
       

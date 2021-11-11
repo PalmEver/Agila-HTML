@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="en">
   <head>
+
+    <meta name="description" content="Kontakta oss">
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,14 +25,33 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="index.html">Hem</a>
-                        <a class="nav-link" href="klienttekniker.html">Klienttekniker</a>
-                        <a class="nav-link" href="projektmetodik.html">Projektmetodik</a>
-                        <a class="nav-link" href="internet.html">Internet</a>
-                        <a class="nav-link" href="tillganglighet.html">Tillgänglighet</a>
-                        <a class="nav-link" href="analys.html">Analys</a>
-                        <a class="nav-link" href="kontakt.html">Kontakt</a>
+                    <div class="navbar-nav"><br>
+                      <a class="nav" aria-current="page" href="index.html">Hem</a><br>
+                      <a class="nav1" href="klienttekniker.html">Klienttekniker</a><br>
+                        <a class="nav1 sub" href="klienttekniker.html#html">HTML</a><br>
+                        <a class="nav1 sub" href="klienttekniker.html#java">JavaScript</a><br>
+                        <a class="nav1 sub" href="klienttekniker.html#css">CSS</a><br><br>
+                      <a class="nav2" href="projektmetodik.html">Projektmetodik</a><br>
+                        <a class="nav2 sub" href="projektmetodik.html#vatten">Vattenfallsmetodiken</a><br>
+                        <a class="nav2 sub" href="projektmetodik.html#agil">Agila metoder</a><br>
+                        <a class="nav2 sub" href="projektmetodik.html#manifest">Agila manifestet</a><br>
+                        <a class="nav2 sub" href="projektmetodik.html#arbeta">Arbeta i SCRUM</a><br><br>
+                      <a class="nav3" href="internet.html">Internet</a><br>
+                        <a class="nav3 sub" href="internet.html#klient">Klient-server modellen</a><br>
+                        <a class="nav3 sub" href="internet.html#internet">Internet</a><br>
+                        <a class="nav3 sub" href="internet.html#proto">Protokoll</a><br>
+                        <a class="nav3 sub" href="internet.html#http">http/https</a><br>
+                        <a class="nav3 sub" href="internet.html#ftp">ftp/ftps</a><br><br>
+                      <a class="nav4" href="tillganglighet.html">Tillgänglighet</a><br>
+                        <a class="nav4 sub" href="tillganglighet.html#wcag">WCAG</a><br>
+                        <a class="nav4 sub" href="tillganglighet.html#ex1">Text</a><br>
+                        <a class="nav4 sub" href="tillganglighet.html#ex2">Responsiv</a><br>
+                        <a class="nav4 sub" href="tillganglighet.html#ex3">Hjälpmedel</a><br><br>
+                      <a class="nav5" href="analys.html">Analys</a><br>
+                        <a class="nav5 sub" href="analys.html#tid">Tidshantering</a><br>
+                        <a class="nav5 sub" href="analys.html#tek">Tekniska beslut</a><br>
+                        <a class="nav5 sub" href="analys.html#aff">Affärsvärde</a><br><br>
+                      <a class="nav aktiv" href="kontakt.html">Kontakt</a>                    
                     </div>
                 </div>
             </div>
@@ -48,25 +70,26 @@
   <main>
     <div class="container">
       <form action="tack.html" onsubmit="Emeddelande()">
-        <label for="fname">First Name</label>
+        <label class="sam" for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Förnam" required>
-        <label for="lname">Last Name</label>
+        <label class="sam" for="lname">Last Name</label>
         <input type="text" id="lname" name="lastname" placeholder="Efternamn" required>
-        <label for="epost">Epost</label>
+        <label class="sam" for="epost">Epost</label>
         <input type="email" id="epost" name="epost" placeholder="E-post" required>
-        <label for="subject">Subject</label>
+        <label class="sam" for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Skriv ett meddelande.." style="height:200px"></textarea>
-        <input type="submit" value="Submit">
+        <br>
+        <input class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold" type="submit" value="Submit">
       </form>
     </div>
   </main>
 
-      <footer class="py-3 my-4">
+      <footer class="py-1">
         <ul class="nav justify-content-center border-bottom pb-1 mb-0">
-          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Hem</a></li>
-          <li class="nav-item"><a href="tillganglighet.html" class="nav-link px-2 text-muted">Tillgänglighet</a></li>
-          <li class="nav-item"><a href="analys.html" class="nav-link px-2 text-muted">Analys</a></li>
-          <li class="nav-item"><a href="kontakt.html" class="nav-link px-2 text-muted">Kontakt</a></li>
+          <li class="nav-link"><a href="index.html" class="foot">Hem</a></li>
+          <li class="nav-link"><a href="tillganglighet.html" class="foot">Tillgänglighet</a></li>
+          <li class="nav-link"><a href="analys.html" class="foot">Analys</a></li>
+          <li class="nav-link"><a href="kontakt.html" class="foot">Kontakt</a></li>
         </ul>
       </footer>
     <!-- Option 1: Bootstrap Bundle with Popper -->

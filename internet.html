@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="en">
   <head>
+
+    <meta name="description" content="Internet">
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,6 +15,7 @@
     <title>Internet</title>
   </head>
   <body>
+  <header>
     <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Agila utvecklingsmetoder</a>
@@ -21,31 +25,58 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="index.html">Hem</a>
-                        <a class="nav-link" href="klienttekniker.html">Klienttekniker</a>
-                        <a class="nav-link" href="projektmetodik.html">Projektmetodik</a>
-                        <a class="nav-link" href="internet.html">Internet</a>
-                        <a class="nav-link" href="tillganglighet.html">Tillgänglighet</a>
-                        <a class="nav-link" href="analys.html">Analys</a>
-                        <a class="nav-link" href="kontakt.html">Kontakt</a>
+                    <div class="navbar-nav"><br>
+                      <a class="nav" aria-current="page" href="index.html">Hem</a><br>
+                      <a class="nav1" href="klienttekniker.html">Klienttekniker</a><br>
+                        <a class="nav1 sub" href="klienttekniker.html#html">HTML</a><br>
+                        <a class="nav1 sub" href="klienttekniker.html#java">JavaScript</a><br>
+                        <a class="nav1 sub" href="klienttekniker.html#css">CSS</a><br><br>
+                      <a class="nav2" href="projektmetodik.html">Projektmetodik</a><br>
+                        <a class="nav2 sub" href="projektmetodik.html#vatten">Vattenfallsmetodiken</a><br>
+                        <a class="nav2 sub" href="projektmetodik.html#agil">Agila metoder</a><br>
+                        <a class="nav2 sub" href="projektmetodik.html#manifest">Agila manifestet</a><br>
+                        <a class="nav2 sub" href="projektmetodik.html#arbeta">Arbeta i SCRUM</a><br><br>
+                      <a class="nav3 aktiv3" href="internet.html">Internet</a><br>
+                        <a class="nav3 sub" href="internet.html#klient">Klient-server modellen</a><br>
+                        <a class="nav3 sub" href="internet.html#internet">Internet</a><br>
+                        <a class="nav3 sub" href="internet.html#proto">Protokoll</a><br>
+                        <a class="nav3 sub" href="internet.html#http">http/https</a><br>
+                        <a class="nav3 sub" href="internet.html#ftp">ftp/ftps</a><br><br>
+                      <a class="nav4" href="tillganglighet.html">Tillgänglighet</a><br>
+                        <a class="nav4 sub" href="tillganglighet.html#wcag">WCAG</a><br>
+                        <a class="nav4 sub" href="tillganglighet.html#ex1">Text</a><br>
+                        <a class="nav4 sub" href="tillganglighet.html#ex2">Responsiv</a><br>
+                        <a class="nav4 sub" href="tillganglighet.html#ex3">Hjälpmedel</a><br><br>
+                      <a class="nav5" href="analys.html">Analys</a><br>
+                        <a class="nav5 sub" href="analys.html#tid">Tidshantering</a><br>
+                        <a class="nav5 sub" href="analys.html#tek">Tekniska beslut</a><br>
+                        <a class="nav5 sub" href="analys.html#aff">Affärsvärde</a><br><br>
+                      <a class="nav" href="kontakt.html">Kontakt</a>                    
                     </div>
                 </div>
-            </div>
-      </nav>
+        </div>
+    </nav>
       <div class="bg-dark text-secondary px-4 py-5 text-center">
-        <div class="py-5">
+        <div class="pysen-5">
           <h1 class="display-5 fw-bold inter">Internet</h1>
+          <br>
           <div class="col-lg-6 mx-auto">
-            <p class="fs-5 sam"> bajbabababababababba</p>
+            <p class="fs-5 sam"> Detta är en sammanfattning av hur enheter kommunicerar via 
+              internet och några byggstenar som gör det möjligt.
+            </p>
+            <br>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <button type="button" class="btn btn-outline-info2 btn-lg px-4 me-sm-3 fw-bold" onclick="document.location='tillganglighet.html'">Nästa</button>
+            </div>
           </div>
         </div>
       </div>
-      <main class="bg-image">
+  </header>
+      <main class="bg-image3">
         <div class="container">
         <div class="container1 row">  
           <div class="col-12">
-            <h1 class="inter">Klient-server modellen</h1>
+            <h1 id="klient" class="inter le-al">Klient-server modellen</h1>
             <br>
             <p>En klient-server modellen är ett nätverkssystem där servrar centralt hantera
               klienter eller arbetsstationer. 
@@ -57,21 +88,26 @@
               Klienten kan vara webbläsare som begär informationen (till exempel en webbsida)
               och servern levererar informationen.</p>
             <br>
-            <h1 class="inter">Internet</h1>
+            <h1 id="internet" class="inter le-al">Internet</h1>
             <br>
-            <p>blblblblbl lblblblbl blblbl blllllll lllllllllll llll llllllllllll
-              lbbbbbbbbbb bbbbbbb   bbbbbb bbbbbbbbbbbbbb bbbbbbbbbbb bbbbbbbbbb
-              lvbbbbbbbbb bbbbbbbbbbbbbbb bbbbbbbbbbbbbbb bbbbbbbbbbbbbbbb
-              öblllll lllllllllllllllllll lllllllllll lllllllll  llllllllllll  lllllllllll
-              lbbbbbb bbbbb bbbbb bbbbbbbb bbbbbbbbbbbb bbbbbbb bbbbb bbbb bbb bbblb
-              lbbbbbb bbbbbb bbbbbbbbb
+            <p>För att kommunicera på internet behövs en unik IP-adress (se Protokoll för 
+              vidare information). En IP-adress går att
+              jämföra med ett mobilnummer, alla klienter/servrar har en unik adress. 
+              För att sedan koppla upp sig till olika adresser 
+              behövs en DNS-server, en telefonkatalog.
+              Om du vill besöka en webbsida skickas din begäran mellan olika DNS-servrar 
+              tills den når rätt server, DNS-servern
+              skickar då tillbaka rätt IP-adress (telefonnummer) och du kan då få kontakt 
+              med webbsidan.              
             </p>
-            <iframe width="100%" height="300"
-            src="https://youtu.be/Dxcc6ycZ73M">
-            </iframe>
+            <br>  
+            <iframe width="100%" height="390"
+            src="https://www.youtube.com/embed/Dxcc6ycZ73M" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+            gyroscope; picture-in-picture" allowfullscreen></iframe>
             <br>
             <br>
-            <h1 class="inter">Protokoll</h1>
+            <h1 id="proto" class="inter le-al">Protokoll</h1>
             <br>
             <p>Ett protokoll är regler som hjälper datorer att komunicera med varandra,
               så de talar samma språk. 
@@ -92,7 +128,7 @@
               och likt ett telefonnummer eller en e-postadress får varje internetansluten dator
               en egen IP-adress.</p>
             <br>
-            <h1 class="inter">http / https</h1>
+            <h1 id="http" class="inter le-al">http / https</h1>
             <br>
             <p>http/https står för HyperText Transfer Protocol och används av webbsidor för att 
               kommunicera mellan webbläsare och servrar.
@@ -101,7 +137,7 @@
               https är krypterad kommunikation och därmed säkrare att använda om man hanterar
               känslig information.</p>
             <br>
-            <h1 class="inter">ftp / ftps</h1>
+            <h1 id="ftp" class="inter le-al">ftp / ftps</h1>
             <br>
             <p>ftp/ftps står för File Transfer Protocol och är ett kommandobaserat
               protokoll för överföring av filer, till exempel en webbsida.
@@ -116,12 +152,12 @@
         <img class="bild img-fluid" src="goodToGreat.jpg" >
       </div> -->
 
-      <footer class="py-1 my-3">
+      <footer class="py-1">
         <ul class="nav justify-content-center border-bottom pb-1 mb-0">
-          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Hem</a></li>
-          <li class="nav-item"><a href="tillganglighet.html" class="nav-link px-2 text-muted">Tillgänglighet</a></li>
-          <li class="nav-item"><a href="analys.html" class="nav-link px-2 text-muted">Analys</a></li>
-          <li class="nav-item"><a href="kontakt.html" class="nav-link px-2 text-muted">Kontakt</a></li>
+          <li class="nav-link"><a href="index.html" class="foot">Hem</a></li>
+          <li class="nav-link"><a href="tillganglighet.html" class="foot">Tillgänglighet</a></li>
+          <li class="nav-link"><a href="analys.html" class="foot">Analys</a></li>
+          <li class="nav-link"><a href="kontakt.html" class="foot">Kontakt</a></li>
         </ul>
       </footer>
     <!-- Option 1: Bootstrap Bundle with Popper -->

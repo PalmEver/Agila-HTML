@@ -3334,6 +3334,43 @@ textarea.form-control-lg {
   background-color: #98da5a;
   border-color: #98da5a;
 }
+.btn-outline-info1 {
+  color:rgb(130, 187, 243);
+  border-color:rgb(130, 187, 243);
+}
+.btn-outline-info1:hover {
+  color: #000;
+  background-color: rgb(130, 187, 243);
+  border-color: rgb(130, 187, 243);
+}
+.btn-outline-info2 {
+  color:rgb(223, 223, 37);
+  border-color:rgb(223, 223, 37);
+}
+.btn-outline-info2:hover {
+  color: #000;
+  background-color: rgb(223, 223, 37);
+  border-color: rgb(223, 223, 37);
+}
+.btn-outline-info3 {
+  color: #e67865;
+  border-color: #e67865;
+}
+.btn-outline-info3:hover {
+  color: #000;
+  background-color: #e67865;
+  border-color: #e67865;
+}
+.btn-outline-info4 {
+  color: rgb(160, 130, 207);
+  border-color: rgb(160, 130, 207);
+}
+.btn-outline-info4:hover {
+  color: #000;
+  background-color: rgb(160, 130, 207);
+  border-color: rgb(160, 130, 207);
+}
+
 .btn-check:focus + .btn-outline-info, .btn-outline-info:focus {
   box-shadow: 0 0 0 0.25rem rgba(13, 202, 240, 0.5);
 }
@@ -7475,6 +7512,9 @@ textarea.form-control-lg {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
 }
+.pyen-5 {
+  padding-top: 3rem !important;
+}
 
 .pt-0 {
   padding-top: 0 !important;
@@ -7757,8 +7797,8 @@ textarea.form-control-lg {
 .text-muted {
   --bs-text-opacity: 1;
   color: #ffffff !important;
-  
 }
+
 
 .text-black-50 {
   --bs-text-opacity: 1;
