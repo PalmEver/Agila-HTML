@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="HTML, CSS, JavaScript">
 
     <!-- Bootstrap CSS -->
     <link href="bootstrap.css" rel="stylesheet" >
@@ -11,7 +12,8 @@
 
     <title>Klienttekniker</title>
   </head>
-  <body style="background-color:rgb(33, 37, 41);">
+  <body>
+  <header>
     <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Agila utvecklingsmetoder</a>
@@ -35,16 +37,53 @@
       </nav>
       <div class="bg-dark text-secondary px-4 py-5 text-center">
         <div class="py-5">
-          <h1 class="display-5 fw-bold text-white">Klienttekniker</h1>
+          <h1 class="display-5 fw-bold klient">Klienttekniker</h1>
+          <br>
           <div class="col-lg-6 mx-auto">
-            <p class="fs-5 mb-4">Hej jsjsjsjsjsjjsjsjsjsjsjsjsjsjsjsjs
-              jsjsjsjsjjjdjdjdjdjdjdjdjdjjdjdjdddddddddddddddddd
-              jdjdjdjdjdjjdjdjdjdjdjdjjdjdjdjd
-              jdjdjdjdjdjjdjdjdjdjdjdjjdjdjdjdjdjdjdjdjdjdj</p>
+            <p class="fs-5 sam">Här kommer vi kortfattat gå igenom de olika delarna som används
+              för att bygga en webbsida.</p>
+            <br>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold" onclick="document.location='projektmetodik.html'">Nästa</button>
+              <button type="button" class="btn btn-outline-light btn-lg px-4" onclick="document.location='kontakt.html'">Frågor?</button>
+            </div>
           </div>
         </div>
       </div>
-
+      </header>
+      <main class="bg-image">
+        <div class="container">
+        <div class="container1 row">  
+          <div class="col-12">
+            <h1 class="klient le-al">HTML</h1>
+            <br>
+            <p>HyperText Markup Language (HTML) är själva skelettet för en webbsida, ett märkspråk som används för att bygga upp själva strukturen för webbsidan. 
+              HTML är uppbyggt av attribut och element som indikerar vad som ska visas på sidan. Elementet består av start- och sluttaggar där innehållet placeras, 
+              rubriker, paragrafer, listor m.m.
+              Attributen beskriver källan till bilder som ska visas eller vilken adress länken länkar till.
+            </p>
+          </div>
+        </div>
+        <div class="container1 row">  
+          <div class="col-12">
+            <h1 class="klient le-al">JavaScript</h1>
+            <br>
+            <p>JavaScript är musklerna för webbsidan, ett scriptspråk som används för att skapa bland annat funktioner och händelser. 
+              Det går att skriva JavaScript direkt i html dokumentet med hjälp av script taggar, men det rekommenderas att använda en 
+              separat fil. Då kan samma funktioner användas på olika sidor, genom att länka till den internt.</p>
+          </div>
+        </div>
+        <div class="container1 row">  
+          <div class="col-12">
+            <h1 class="klient le-al">CSS</h1>
+            <br>
+            <p>Cascading Style Sheets (CSS) är skinnet för webbsidan, ett språk bestående av regler som bestämmer hur elementen ska presenteras. 
+              I CSS anger man layouten, färger, bakgrundsbilder/färger, teckensnitt m.m. Man kan även använda CSS för att göra webbsidan responsiv
+              samt anpassa den för olika mediatyper och skärmstorlekar.</p>
+          </div>
+        </div>
+      </div>
+      </main>
       <!-- <div style="border: 0ch;">
         <img class="bild img-fluid" src="goodToGreat.jpg" >
       </div> -->

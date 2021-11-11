@@ -47,13 +47,11 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
-  background-color: #212529;
   padding: 20px;
 }
 
 .container1 {
-    border-radius: 1px;
-    background-color: rgb(75, 84, 94);
+    background-color: rgb(47, 53, 59);
     padding: 30px;
     width: 80%;
     margin: 0 auto;
@@ -62,40 +60,16 @@ input[type=submit]:hover {
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-}
-.container2 {
-    border-radius: 1px;
-    background-color: rgb(75, 84, 94);
-    padding: 30px;
-    width: 80%;
-    margin: 0 auto;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: row;
-    align-items:flex-start;
-    justify-content: flex-start;
     margin-top: 40px;
-    
+    box-sizing: border-box;
+    border: 0px;
+    border-width: 0px;
+    word-wrap: wrap;
 }
 
-/* .container1 h4 {
-    color: white;
-    text-align: center;
-    margin-bottom: 20px; */
-
-/* .container1 h2 {
-    color: white;
-    margin-bottom: 20px;
-    float: left;
-    text-align: left;
-} */
 .container1 p{
     color: white;
-}
-
-
-.container2 p {
-    color: white;
+    text-align:left;
 }
 
 h1 {
@@ -107,8 +81,57 @@ h2 {
     color: white;
     margin-top: 10px;
     font-size: 17px;
-    color: coral;
+    text-align: left;
 }
 
+.bg-image{
+    background-image: url("forest.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    background-attachment: fixed;
+}
 
+.bg-image2{
+    background-image: url("water.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    background-attachment: fixed;
+}
 
+header {
+    margin-bottom: 40px;
+}
+
+.projekt {
+    color:rgb(130, 187, 243);
+    max-width: 100%;
+}
+
+.klient {
+    color:#98da5a;
+    max-width: 100%;
+}
+
+.tillgang {
+    color: #e67865;
+    max-width: 100%;
+}
+
+.inter {
+    color: rgb(223, 223, 37);
+}
+
+.le-al {
+    text-align: left;
+}
+
+.sam {
+    color:white;
+}
+
+.lis {
+    color: white;
+    ;
+}
